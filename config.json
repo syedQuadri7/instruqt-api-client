@@ -1,0 +1,143 @@
+{
+  "google_sheets": {
+    "spreadsheet": "Innovation Lab Instruqt Metrics"
+  },
+  "metrics": {
+    "track_stats": ["track", "started_total", "completed_total"],
+    "track_stats_yearly": [
+      "track",
+      "FEBRUARY",
+      "MARCH",
+      "APRIL",
+      "MAY",
+      "JUNE",
+      "JULY",
+      "AUGUST",
+      "SEPTEMBER",
+      "OCTOBER",
+      "NOVEMBER",
+      "DECEMBER",
+      "JANUARY"
+    ],
+    "invite_stats": [
+      "user_email",
+      "invite_id",
+      "track_title",
+      "track_slug",
+      "challenge",
+      "message",
+      "time"
+    ],
+    "track_invite_stats": [
+      "invite_id",
+      "title",
+      "invite_count",
+      "created_date",
+      "tracks"
+    ],
+    "challenge_stats": [
+      "track_id",
+      "track_title",
+      "challenge_id",
+      "challenge_title",
+      "started_total",
+      "completed_total",
+      "attempts_total",
+      "attempts_min",
+      "attempts_max",
+      "attempts_avg",
+      "attempts_stddev",
+      "duration_min",
+      "duration_max",
+      "duration_avg",
+      "duration_stddev"
+    ]
+  },
+  "instruqt": {
+    "endpoint": "https://play.instruqt.com/graphql",
+    "org_slug": "hashicorp",
+    "filter_developers": "true"
+  },
+  "demos": {
+    "terraform_demos": [
+      "terraform-collaborative-iac",
+      "terraform-cloud-compliance-mgmt"
+    ],
+    "vault_demos": [
+      "vault-managing-secrets-and-moving-to-cloud",
+      "vault-high-availability-across-clouds-and-regions",
+      "vault-advanced-data-protection-with-transform"
+    ],
+    "consul_demos": [
+      "consul-service-discovery-health-monitoring",
+      "consul-zero-trust-networking-with-service-mesh"
+    ],
+    "nomad_demos": [
+      "nomad-application-orchestration",
+      "nomad-moving-to-the-cloud"
+    ],
+    "packer_demos": ["hcp-packer-essentials"],
+    "zts_demos": ["zero-trust-essentials"]
+  },
+  "workshops": {
+    "terraform_workshops": [
+      "sentinel-for-terraform-v4",
+      "sentinel-cli-basics",
+      "terraform-intro-aws",
+      "terraform-intro-azure",
+      "terraform-intro-gcp",
+      "terraform-cloud-aws",
+      "terraform-cloud-azure",
+      "terraform-cloud-gcp",
+      "terraform-cloud-bonus-lab"
+    ],
+    "vault_workshops": [
+      "vault-basics",
+      "vault-dynamic-database-credentials",
+      "vault-aws-dynamic-secrets",
+      "vault-encryption-as-a-service",
+      "vault-ssh-secret-engine",
+      "vault-kmip-secrets-engine-mongodb",
+      "vault-aws-auth-method",
+      "vault-advanced-data-protection-with-transform"
+    ],
+    "consul_workshops": [
+      "consul-basics",
+      "service-mesh-with-consul",
+      "service-discovery-with-consul",
+      "network-infrastructure-automation",
+      "multi-cloud-service-networking-with-consul",
+      "consul-life-of-a-developer"
+    ],
+    "nomad_workshops": [
+      "nomad-update-strategies",
+      "nomad-simple-cluster",
+      "nomad-on-windows",
+      "nomad-multi-server-cluster",
+      "nomad-monitoring",
+      "nomad-job-placement",
+      "nomad-integration-with-vault",
+      "nomad-host-volumes",
+      "nomad-governance",
+      "nomad-federation",
+      "nomad-and-csi-plugins-gcp",
+      "nomad-consul-connect",
+      "nomad-basics",
+      "nomad-and-portworx",
+      "nomad-acls"
+    ]
+  },
+  "HVD": {
+    "terraform_adopt": [
+      "terraform-agents",
+      "terraform-control-workspaces",
+      "terraform-modules",
+      "tfc-private-module-registry",
+      "terraform-landing-zone-provisioning-workflow",
+      "terraform-cloud-variables",
+      "dynamic-credentials-terraform-cloud",
+      "tfc-proj-wkspc-conf",
+      "terraform-git-flow"
+    ]
+  }
+}
